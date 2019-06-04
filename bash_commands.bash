@@ -10,14 +10,16 @@
 
 function creatingLocalRepository(){
     $USERNAME = jalotra
-    python creating_empty_repository.py $1
+    python3 creating_empty_repository.py $1
     #CD into the folder that the python script created  
     cd ..
-    cd "$1"
+    cd $1
 
     #INITIALIZING ACCORDING TO GITHUB RULES
     #Initilize an empty git repository
     git init
+    #Create a README.md
+    touch README.md
     #Giving Name of the folder to README.md
     echo "Hello World, My name who goes with the name $USERNAME just created me.
     I hope that I you will find me helpful.I am happy to serve you " > README.md

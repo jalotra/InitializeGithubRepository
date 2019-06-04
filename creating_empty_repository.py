@@ -13,9 +13,10 @@ PASSWORD = str("sjalotra@123")
 def create():
     folderName = sys.argv[1]
     os.makedirs(PATH + '/' + folderName)
-    user = Github(USERNAME, PASSWORD).get_user()
-    repo = user.create_repo(sys.argv[1])
-    print('CREATED AN EMPTY REPOSITORY AT THIS {} LOCAL PATH'.format(PATH))
+    print(PATH + '/' + folderName)
+    # user = Github(USERNAME, PASSWORD).get_user()
+    # repo = user.create_repo(sys.argv[1])
+    # print('CREATED AN EMPTY REPOSITORY AT THIS {} LOCAL PATH'.format(PATH))
 
 if __name__ == "__main__":
     create()

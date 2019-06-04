@@ -1,4 +1,5 @@
-#! bin/bash
+#!/bin/bash
 
 cd ..
-cd '$1'
+cd $1
+mkdir SHIVAMJALOTRA

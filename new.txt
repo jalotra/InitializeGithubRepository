@@ -1,2 +1,1 @@
-CREATED AN EMPTY REPOSITORY AT THIS /home/shivam LOCAL PATH
 Reinitialized existing Git repository in /home/shivam/InitializeGithubProject/.git/

@@ -10,9 +10,10 @@
 
 function creatingLocalRepository(){
     $USERNAME = jalotra
-    python3 creating_empty_repository.py $1
+    # python3 creating_empty_repository.py $1
     #CD into the folder that the python script created  
     cd ..
+    mkdir $1
     cd $1
 
     #INITIALIZING ACCORDING TO GITHUB RULES

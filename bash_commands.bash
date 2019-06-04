@@ -13,8 +13,7 @@ function creatingLocalRepository(){
     python creating_empty_repository.py $1
     #CD into the folder that the python script created  
     cd..
-    mkdir $1
-    cd '$1'
+    mkdir -p "$1" && cd "$1"
 
     #INITIALIZING ACCORDING TO GITHUB RULES
     #Initilize an empty git repository

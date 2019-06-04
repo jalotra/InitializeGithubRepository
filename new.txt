@@ -1,1 +1,4 @@
 Reinitialized existing Git repository in /home/shivam/InitializeGithubProject/.git/
+[master ad2f82f] InitialCommit
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+pip install

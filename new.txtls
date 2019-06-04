@@ -1,1 +1,5 @@
 Reinitialized existing Git repository in /home/shivam/InitializeGithubProject/.git/
+[master c49c534] InitialCommit
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+ create mode 100644 new.txtls
+pip install

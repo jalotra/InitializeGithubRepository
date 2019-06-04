@@ -12,8 +12,8 @@ function creatingLocalRepository(){
     $USERNAME = jalotra
     python creating_empty_repository.py $1
     #CD into the folder that the python script created  
-    PATH = $PWD - 'InitializeGithubProject'
-    PATH = PATH/$1
+    cd..
+    PATH = $PWD/$1
     cd PATH
 
     #INITIALIZING ACCORDING TO GITHUB RULES
@@ -31,7 +31,10 @@ function creatingLocalRepository(){
     #Pushing this to github  and to master Branch 
     git push -u origin master
 
-    if [$2 = python3Project]
+    #Opening the visual Studio code(My Code Editor) // Or you can make it subl . FOR SublimeTextEditor 
+    code .
+
+    if [ $2 = python3Project ]
     then
             #Create a python3 virtual environment
             python3 -m venv venv
@@ -46,6 +49,5 @@ function creatingLocalRepository(){
     #         #Nothing pass
     #     } 
 
-     #Opening the visual Studio code(My Code Editor) // Or you can make it subl . FOR SublimeTextEditor 
-    code .
+     
 }

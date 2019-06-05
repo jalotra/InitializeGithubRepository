@@ -16,10 +16,11 @@ git clone ${this_repo_https_address}
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+Then add your Github username and password to creating_empty_github_repository.py and also your username in the
+initialize_git.bash
 chmod +x initialize_git.bash
 source ./initialize_git.bash
-Then add your Github username and password to creating_empty_github_repository.py and also your username in
-initialize_git.bash
+
 ```
 ### HowToRun:
 ```bash

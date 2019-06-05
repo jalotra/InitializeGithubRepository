@@ -27,6 +27,9 @@ source ./initialize_git.bash
 Now to run for different use-cases:
 1. A python3Project : creatingLocalRepository <--folderName> python3Project
     example : creatingLocalRepository NewProject python3Project
+    Folders and Files Created: venv src docs README.md .gitignore(for python)
+    And also the current terminal window will automatically source the ${foldername}venv .
  
 2. A Normal Project : creatingLocalRepository <--folderName>
-    example : creatingLocalRepository NewProject 
+    example : creatingLocalRepository NewProject
+    Folders and Files created: src docs README.md 

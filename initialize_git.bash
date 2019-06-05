@@ -65,9 +65,6 @@ function creatingLocalRepository(){
             python3 -m venv $1venv
             #source into this venv
             source $1venv/bin/activate
-            #echo Install some of the python dependencies
-            echo "pip install"
-
     fi
         #WE can add some other functionalities here Also
     # else

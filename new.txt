@@ -1,3 +1,0 @@
-Reinitialized existing Git repository in /home/shivam/InitializeGithubProject/.git/
-[master 26fb0e1] InitialCommit
- 1 file changed, 2 insertions(+), 2 deletions(-)

@@ -56,10 +56,9 @@ function creatingLocalRepository(){
     git push -u origin master
 
 
-    #Opening the visual Studio code(My Code Editor) // Or you can make it subl . FOR SublimeTextEditor 
-    code .
+    
 
-    if [ $2 == 'python3Project' ];
+    if [ "$2" == 'python3Project' ];
     then
             #Create a python3 virtual environment
             python3 -m venv $1venv
@@ -71,6 +70,9 @@ function creatingLocalRepository(){
     #     {
     #         #Nothing pass
     #     } 
+
+    #Opening the visual Studio code(My Code Editor) // Or you can make it subl . FOR SublimeTextEditor 
+    code .
 
      
 }
